@@ -1,0 +1,29 @@
+Cards Details in Dashboard
+Overall Font - Inter
+Pending Color - #F29339 
+Done Color - #095008
+1.Title Font must be Black or More bolder - Font size - 20
+2.Budget,Liqudated,Activity Date, and Deadline Font is Bold - Font size -  7  Color - #605E5E
+3.Value inside of Budget,Liqudated,Activity Date, and Deadline Font is Bold Font size - 16  Color - #000000
+4.Payee Size and Color - 7 and #605E5E
+5.Payee Name Size and Color - 12 and #000000
+
+
+Cards Details in Archive
+1.Title Font must be Black or More bolder - Font size - 16
+2.Budget,Liqudated,Activity Date, and Deadline Font is Bold - Font size -  7  Color - #605E5E
+3.Value inside of Budget,Liqudated,Activity Date, and Deadline Font is Bold Font size - 12  Color - #000000
+4.Payee Size and Color - 7 and #605E5E
+5.Payee Name Size and Color - 11 and #000000
+
+
+ 
+Cards Details in View Files
+1.Title Font must be Black or More bolder - Font size - 23
+2.Liquidation Title Font size - 7 color #605E5E
+3.Budget and Liqudated font size - 9 color #FFFFFF
+4.Activity Date, and Deadline Font is Bold - Font size -  7  Color - #605E5E
+5.Value inside of Budget,Liqudated,Activity Date, and Deadline Font is Bold Font size - 12  Color - #000000
+6.Payee Size and Color - 7 and #605E5E
+7.Payee Name Size and Color - 11 and #000000
+8.Liquidated Box Color = #00788D Budget Box Color = #38965D

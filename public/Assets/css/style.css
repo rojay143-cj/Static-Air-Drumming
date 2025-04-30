@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'Future';
+    src: url('/Assets/Font/This is the future/This Is The Future.otf') format('opentype');
+}
+.futurefont{
+    font-family: 'Future', sans-serif;
+}
+/* Planetary parallax effect */
+#planet1 img, #planet2 img, #planet3 img, #planet4 img, #planet5 img {
+    transition: transform 0.3s ease-out;
+}
+
+/* Home Page */
+.right{
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 1s;
+}.left{
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 1s;
+}
+
+.rightslow{
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 2s;
+}.leftslow{
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 2s;
+}
+
+.topfast{
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: all 1.5s;
+}.bottomfast{
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 1.5s;
+}
+
+.topslow{
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: all 2s;
+}.bottomslow{
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 2s;
+}
+
+.bottomTop{
+    transform: translateY(100%);
+    opacity: 0;
+    transition: ease-out 0.5s;
+}
+.bottom0{
+    transform: translateY(0);
+    opacity: 1;
+    transition: ease-in 0.5s;
+}
+.rightLeft{
+    transform: translateX(100%);
+    opacity: 0;
+    transition: ease-out 0.5s;
+}.right0{
+    transform: translateX(0);
+    opacity: 1;
+    transition: ease-in 0.5s;
+}
+/* About US */
+.phone1{
+    transform: translateY(56%);
+    transition: all 2s;
+}
+.phoneShow{
+    transform: translateY(0);
+    transition: all 2s;
+}
+
+.phone2 {
+    transform: translateY(30%);
+    transition: all 2s;
+}.phoneShow2 {
+    transform: translateY(0);
+    transition: all 2s;
+}
+.scale-up {
+    transform: scale(2);
+    transition: transform 0.3s ease-in;
+}
+
+
+.content {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .tabs {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .tab {
+        margin: 5px;
+    }
+
+    .tab img {
+        width: 25px;
+    }
+
+    .content {
+        font-size: 14px;
+    }
+}.milestones_mask {
+    mask-image: url('../../Asset/02_About Page/About_Section  2/milestone-BG.png');
+    mask-image: url('../../Assets/02_About Page/About_Section  2/milestone-BG.png');
+    mask-repeat: no-repeat;
+    mask-size: 100vw 1526px;
+}@media (max-width: 1025px) {
+    .milestones_mask {
+        mask-size: 100% 100%;
+    }
+}
+
+/* Grow Effect */
+.grow0{
+    transform: scale(0);
+    opacity: 0;
+    transition: linear 1.5s;
+}.grow1{
+    transform: scale(1);
+    opacity: 1;
+    transition: linear 1.5s;
+}
+
+/* Grow But Slow */
+.growdefault_01{
+    transform: scale(0);
+    opacity: 0;
+    transition: linear 1.3s;
+}
+.growdefault_02{
+    transform: scale(0);
+    opacity: 0;
+    transition: linear 0.5s;
+}
+.growdefault_03{
+    transform: scale(0);
+    opacity: 0;
+    transition: linear 0.6s;
+}
+.growslow_01{
+    transform: scale(1);
+    opacity: 1;
+    transition: linear 0.8s;
+}
+.growslow_02{
+    transform: scale(1);
+    opacity: 1;
+    transition: linear 1.2s;
+}
+.growslow_02{
+    transform: scale(1);
+    opacity: 1;
+    transition: linear 1.5s;
+}
+
+
+/* Initial state: hidden or faded out */
+.error-message {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+/* Animation keyframes */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
